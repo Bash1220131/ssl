@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SSL - App Creation Specialists">
+    <title>SSL - App Creation Specialists</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>SSL</h1>
+            <p>App Creation Specialists</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Transforming Ideas into Apps</h2>
+        <p>Your vision, our expertise. Let’s build the future together.</p>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About SSL</h2>
+        <p>At SSL, we specialize in creating high-quality, user-friendly apps tailored to meet your specific needs. Whether it's for Android, iOS, or web, we've got you covered.</p>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <h3>Mobile App Development</h3>
+            <p>We build responsive, intuitive mobile apps for Android and iOS platforms.</p>
+        </div>
+        <div class="service-box">
+            <h3>Web App Development</h3>
+            <p>Our team develops custom web applications to help businesses grow.</p>
+        </div>
+        <div class="service-box">
+            <h3>UI/UX Design</h3>
+            <p>We focus on delivering visually appealing and user-friendly designs.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Have a project in mind? Let’s talk!</p>
+        <form action="submit-form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SSL. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
